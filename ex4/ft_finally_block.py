@@ -39,6 +39,7 @@ def test_watering_system() -> None:
         print("Closing watering system")
 
     print("\nTesting invalid plants...")
+    print("Opening watering system")
     try:
         water_plant("Tomato")
         water_plant("lettuce")
